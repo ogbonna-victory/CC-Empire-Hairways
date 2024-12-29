@@ -1,0 +1,106 @@
+*{
+    font-family: manrope;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background-color: #fafafa !important;
+}
+.brand-name{
+    color: #a94064 !important;
+}
+.fa-solid.fa-magnifying-glass, .fa-regular.fa-user, .fa-solid.fa-bag-shopping{
+    color: #136e4e;
+    margin: 10px;
+}
+.fa-solid.fa-magnifying-glass, .fa-regular.fa-user, .fa-solid.fa-bag-shopping:hover{
+    cursor: pointer;
+}
+.header{
+    background-color: #cba135;
+    box-shadow: 0px 4px 6px rgb(0, 0, 0, 0.1);
+   
+}
+.logo{
+    height: 90px;
+    width: auto;
+    max-width: 100%;
+}
+.navbar{
+    padding: 0.5rem 1rem;
+}
+.navbar-brand{
+    min-height: 60px;
+}
+.nav-icon{
+    margin-right: 20px;
+}
+.nav-links{
+    color: #136e4e !important;
+    margin: 15px !important;
+    font-size: 17px !important;
+}
+.active{
+    font-size: 18px;
+    color: #a94064 !important;
+    font-weight: bold !important;
+}
+.nav-links:hover{
+    color: #a94064 !important;
+    font-weight: bold !important;
+}
+.fa-solid.fa-bars{
+    font-size: 40px !important;
+    color: #136e4e;
+}
+.dropdown-toggle::after{
+    display: none !important;
+}
+.fa-solid.fa-ellipsis{
+    font-size: 30px;
+    color: #136e4e;
+}
+.offcanvas{
+    background-color: #cba135 !important;
+}
+.dropdown-menu{
+    background-color: #cba135 !important;
+}
+@media (max-width: 1206px) {
+    .nav-links{
+        font-size: 16px !important;
+        margin: 10px !important;
+    }
+    .fa-solid.fa-magnifying-glass, .fa-regular.fa-user, .fa-solid.fa-bag-shopping{
+        margin: 5px;
+    }
+    .nav-icon{
+        margin-right: 0;
+    }
+}
+@media (max-width: 1089px) {
+    .nav-links{
+        font-size: 16px !important;
+        margin: 5px !important;
+    }
+    .fa-solid.fa-magnifying-glass, .fa-regular.fa-user, .fa-solid.fa-bag-shopping{
+        margin: 5px;
+    }
+}
+@media (max-width: 1009px) {
+    .nav-links{
+        margin: 0 !important;
+    }
+}
+@media (max-width: 400px) {
+    .fa-solid.fa-bars{
+        font-size: 35px !important;
+    }
+    .logo{
+        height: 70px !important;
+    }
+    .brandname-smaller{
+        font-size: 18px !important;
+    }
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CC Empire Hairways Website</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+      </style>
+    <script src="https://kit.fontawesome.com/aa18926b83.js" crossorigin="anonymous"></script>
+</head>
+<body class="body">
+    <header class="header">
+        <!--Navigation Bar for large screens-->
+        <nav class="navbar navbar-expand-lg d-none d-lg-block d-xl-block d-xxl-block d-xxxl-block">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img class="logo" src="./Images/logo.png" alt="CCE Hairways Logo" >
+              <span class="navbar-brand mb-0 h1 brand-name">CC EMPIRE HAIRWAYS</span>
+            </a>
+            <!--Toggle button-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+             <!--Nav-links-->
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav mx-auto">
+                <a class="nav-link active nav-links" aria-current="page" href="#">Home</a>
+                <a class="nav-link nav-links" href="#">Donor hairs</a>
+                <a class="nav-link nav-links" href="#">Factory wigs</a>
+                <a class="nav-link nav-links" href="#">Braids wigs</a>
+                <a class="nav-link nav-links" href="#">Hair blends</a>
+                <a class="nav-link nav-links" href="#">Blog</a>
+              </div>
+            </div>
+            <!--Nav Icons-->
+            <div class="nav-icon">
+              <!-- Search icon trigger modal -->
+ <i class="fa-solid fa-magnifying-glass" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+<!--Search bar Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Search for Products</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+              <i class="fa-regular fa-user"></i>
+              <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+          </div>
+        </nav>
+
+        <!--Navigation bar for smaller screens-->
+        <nav class="navbar d-block d-lg-none d-xl-none d-xxl-none d-xxxl-none">
+          <div class="container">
+            <i class="fa-solid fa-bars" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"></i>
+            <div class="offcanvas offcanvas-start w-50 h-75" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <div class="navbar-nav">
+                  <a class="nav-link active fs-4" aria-current="page" href="#">Home</a>
+                  <a class="nav-link fs-5" href="#">Donor hairs</a>
+                  <a class="nav-link fs-5" href="#">Factory wigs</a>
+                  <a class="nav-link fs-5" href="#">Braids wigs</a>
+                  <a class="nav-link fs-5" href="#">Hair blends</a>
+                  <a class="nav-link fs-5" href="#">Blog</a>
+                </div>
+              </div>
+            </div>
+
+            <a class="navbar-brand mx-auto" href="#">
+              <img class="logo" src="./Images/logo.png" alt="CCE Hairways Logo" >
+              <span class="navbar-brand mb-0 h1 brand-name brandname-smaller">CC EMPIRE HAIRWAYS</span>
+            </a>
+
+            <div class="dropdown">
+               <i class="fa-solid fa-ellipsis dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false""></i>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><button class="dropdown-item" type="button"><i class="fa-solid fa-magnifying-glass"></i></button></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><button class="dropdown-item" type="button"><i class="fa-regular fa-user"></i></button></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><button class="dropdown-item" type="button"><i class="fa-solid fa-bag-shopping"></i></button></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+</body>
+</html>
